@@ -1,4 +1,4 @@
-@import url("../main/reset.css");
+@import url("./reset.css");
 :root {
   --logo-head-color: rgb(118, 118, 236);
   --border: rgb(0, 0, 0);
