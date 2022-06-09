@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./scripts.js"></script>
+    <title>Sign up</title>
+</head>
+<body>
+    <div id="main-wrapper">
+        <div class="logo-header">
+            <img id="logo" src="./logo.svg" alt="logo">
+            <div class="company-name">Company name</div>
+        </div>
+        <div class="lower-wrapper">
+            <div class="sign-up-wrapper">
+                <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe fugiat dolorum quis placeat libero. Reprehenderit accusantium at numquam nostrum voluptatum?</h1>
+                <form action="" method="post" id="sign-up">
+                    <fieldset class="sign-up-field">
+                        <fieldset class="username">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" id="username" placeholder="Please enter an unique username" required>
+                        </fieldset>
+                        <fieldset class="email">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="example@example.com" required>
+                        </fieldset>
+                        <fieldset class="pass">  
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" minlength="8" required>
+                        </fieldset>
+                        <fieldset class="pass-confirmation"> 
+                            <label for="confirm-password">Confirm password:</label>
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
+                        </fieldset>
+                    </fieldset>
+                    <div id="error-message">
+                    </div>
+                    <div class="button-wrapper">
+                        <button id="sign-up-btn" type="submit">Sign up</button>
+                    </div>
+                </form>
+            </div>
+            <img src="./photo-1654541696506-b71d8fbc8766.avif" alt="" id="background">
+        </div>
+    </div>
+</body>
+</html>
